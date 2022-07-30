@@ -1,7 +1,9 @@
 # Install-and-operate-the-arm-package-on-the-ROS-system
 ## step1: Ensure that the ROS system is installed correctly
 <img width="1080" alt="Screenshot 2022-07-30 014526--1" src="https://user-images.githubusercontent.com/107959289/181862641-19aca15a-4ba0-4010-9150-c4c401ecf4b9.png">
+
 ## step2: Writing commands to install the arm in the terminal
+
 ```
 $ sudo apt-get install ros-noetic-catkin
 $ mkdir -p ~/catkin_ws/src
@@ -23,9 +25,10 @@ then
 ctrl + o
 $ source ~/.bashrc
 $roslaunch robot_arm_pkg check_motors.launch
-
 ```
+
 ## step3: arm control
+
 <img width="1080" alt="Screenshot 2022-07-30 014526--1" src="https://user-images.githubusercontent.com/107959289/181861297-ca8e470c-16f7-4abf-b891-0908ab75e23e.png">
 
 # arduino_robot_arm
