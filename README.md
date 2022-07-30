@@ -1,37 +1,3 @@
-# Install-and-operate-the-arm-package-on-the-ROS-system
-# step1:Ensure that the ROS system is installed
-<img width="1080" alt="Screenshot 2022-07-30 014526--1" src="https://user-images.githubusercontent.com/107959289/181861297-ca8e470c-16f7-4abf-b891-0908ab75e23e.png">
-
-# step2:Writing commands to install the arm in the terminal
-
-```
-$ sudo apt-get install ros-noetic-catkin
-$ mkdir -p ~/catkin_ws/src
-$ cd ~/catkin_ws/
-$ catkin_make
-$ cd ~/catkin_ws/src
-$ git clone https://github.com/smart-methods/arduino_robot_arm.git 
-$ cd ~/catkin_ws
-$ rosdep install --from-paths src --ignore-src -r -y
-$ sudo apt-get install ros-kinetic-moveit
-$ sudo apt-get install ros-kinetic-joint-state-publisher ros-kinetic-joint-state-publisher-gui
-$ sudo apt-get install ros-kinetic-gazebo-ros-control joint-state-publisher
-$ sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control
-$ sudo nano ~/.bashrc
-
-at the end of the (bashrc) file add the follwing line
-(source /home/wesam/raghad/devel/setup.bash)
-Important note:
-the name Raghad in the code differs from one person to another. Put your username in its place
-then 
-ctrl + o
-
-$ source ~/.bashrc
-$ roslaunch robot_arm_pkg check_motors.launch
-```
-# step3:arm control start
-<img width="1080" alt="Screenshot 2022-07-30 023327--3" src="https://user-images.githubusercontent.com/107959289/181861054-6479edfe-022d-4f74-b2dd-d2e86b830ab5.png">
-
 # arduino_robot_arm
 ROS packages that can be used to plan and execute motion trajectories for a robot arm in simulation and real-life.
 
