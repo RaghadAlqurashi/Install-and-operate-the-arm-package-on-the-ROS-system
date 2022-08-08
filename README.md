@@ -28,8 +28,7 @@ $roslaunch robot_arm_pkg check_motors.launch
 ```
 
 ## step3: arm control
-
-<img width="1080" alt="Screenshot 2022-07-30 014526--1" src="https://user-images.githubusercontent.com/107959289/181861297-ca8e470c-16f7-4abf-b891-0908ab75e23e.png">
+<img width="1080" alt="Screenshot 2022-07-30 023114--2" src="https://user-images.githubusercontent.com/107959289/183469458-3538a04a-5cdf-44ea-b609-3206e4b09dcc.png">
 
 # arduino_robot_arm
 ROS packages that can be used to plan and execute motion trajectories for a robot arm in simulation and real-life.
