@@ -1,4 +1,4 @@
-# Install-and-operate-the-arm-package-on-the-ROS-system
+# install-and-operate-the-arm-package-on-the-ROS-system
 ## step1: Ensure that the ROS system is installed correctly
 <img width="1080" alt="Screenshot 2022-07-30 014526--1" src="https://user-images.githubusercontent.com/107959289/181862641-19aca15a-4ba0-4010-9150-c4c401ecf4b9.png">
 
